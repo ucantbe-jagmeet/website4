@@ -12,6 +12,8 @@
     padding-right: 8%;
     overflow:hidden;
     box-sizing: border-box;
+   padding-bottom:10px;  
+
 }
 
 .navbar
@@ -112,8 +114,17 @@ button
     background:linear-gradient(to right, #fb5283,#ff3527);
     border-radius: 6px;
     cursor:pointer;
+    transition: all 0.3s ease-in-out;
 }
  
+button:hover
+{
+    color: #fb5283;
+    background:white;
+    border-radius:0;
+    border-top: 2px solid #fb5283;
+    border-bottom: 2px solid #fb5283;
+}
 
 .col-1::after
 {
@@ -167,23 +178,20 @@ button
     cursor: pointer;
 }
 
-.social-links img{
-    height: 13px;
-    margin-right: 20px;
-    cursor: pointer;
-}
 
 .social-links
 {
    display: flex;
    justify-content: center;
    align-items: center;
-   
 }
 .social-links img
 {
     padding:8px;
    border-radius: 10px;
+   height: 13px;
+   margin-right: 20px;
+   cursor: pointer;
 }
 .social-links img:hover
 {
