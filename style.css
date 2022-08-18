@@ -227,7 +227,8 @@ button:hover
        margin-bottom: 10px;
     }
 
-    nav ul li a{
+    nav ul li a
+    {
         color: #fff;
     }
 
@@ -257,7 +258,8 @@ button:hover
     {
         flex-basis: 100%;
     }
-    .col-2 h2{
+    .col-2 h2
+    {
         font-size:35px;
     }
 }
