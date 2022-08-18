@@ -175,7 +175,20 @@ button
 
 .social-links
 {
-   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.social-links img
+{
+    padding:8px;
+   border-radius: 10px;
+}
+.social-links img:hover
+{
+    background: linear-gradient(#ff54a2,#ff575a);
+    transform: scale(1.3);
 }
 
 @media only screen and (max-width:700px){
